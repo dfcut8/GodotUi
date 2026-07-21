@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://bv30a5jq6fg3d"]
+
+[ext_resource type="Texture2D" uid="uid://ruosvsyeyy37" path="res://icon.svg" id="1_iu24h"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nh642"]
+bg_color = Color(0.83514714, 0.43938005, 0.7199777, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+shadow_size = 5
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nh642"]
+texture = ExtResource("1_iu24h")
+texture_margin_left = 3.0
+texture_margin_top = 3.0
+texture_margin_right = 3.0
+texture_margin_bottom = 3.0
+modulate_color = Color(0.5830626, 0.64102995, 0.6272885, 1)
+
+[node name="ThemeOverrides" type="Control" unique_id=1960408602]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=1294092331]
+layout_mode = 0
+offset_left = 41.0
+offset_top = 17.0
+offset_right = 81.0
+offset_bottom = 57.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_nh642")
+
+[node name="Panel2" type="Panel" parent="." unique_id=165714769]
+layout_mode = 0
+offset_left = 147.0
+offset_top = 21.0
+offset_right = 187.0
+offset_bottom = 61.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_nh642")
