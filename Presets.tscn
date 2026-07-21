@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://bdwxnwt4d7hnx"]
+
+[node name="Presets" type="Control" unique_id=1153857251]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=189737770]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.6571181
+anchor_bottom = 0.83641976
+offset_right = -456.0
+offset_bottom = -323.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1976444517]
+layout_mode = 0
+offset_left = 583.0
+offset_top = 335.0
+offset_right = 1034.0
+offset_bottom = 556.0
+
+[node name="ColorRect" type="ColorRect" parent="HBoxContainer" unique_id=1491168931]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ColorRect2" type="ColorRect" parent="HBoxContainer" unique_id=1458323620]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ColorRect3" type="ColorRect" parent="HBoxContainer" unique_id=1319084899]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ColorRect4" type="ColorRect" parent="HBoxContainer" unique_id=1027328483]
+layout_mode = 2
+size_flags_horizontal = 3
