@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://cae5hjffkev6s"]
+
+[node name="ContainerBasics" type="Control" unique_id=1934772588]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1250965346]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.1
+anchor_bottom = 0.1
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=559217600]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.15
+anchor_right = 0.25
+anchor_bottom = 0.1
