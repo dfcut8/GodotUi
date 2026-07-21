@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://dtwddavdmdotb"]
+
+[node name="ControlNodes" type="Control" unique_id=784675950]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="." unique_id=134272843]
+layout_mode = 0
+offset_left = 188.0
+offset_top = 56.0
+offset_right = 521.0
+offset_bottom = 192.0
+text = "Some super interesting text"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=33766985]
+layout_mode = 0
+offset_left = 240.0
+offset_top = 244.0
+offset_right = 616.0
+offset_bottom = 452.0
+bbcode_enabled = true
+text = "To make a piece of [wave]text[/wave] bold enclose it in [b][/b], e.g.
+
+[b]Hello[/b]
+
+will become Hello
+For underlining use [u][/u], for example:
+
+[u]Good Morning[/u]
+
+becomes Good Morning
+To italicise text use [i][/i], e.g.
+
+This is [i]Great![/i]
+
+would give This is Great!"
