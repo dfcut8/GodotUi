@@ -8,15 +8,61 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1250965346]
-layout_mode = 1
-anchors_preset = -1
-anchor_right = 0.1
-anchor_bottom = 0.1
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=818378403]
+layout_mode = 0
+offset_right = 144.0
+offset_bottom = 73.0
 
-[node name="ColorRect2" type="ColorRect" parent="." unique_id=559217600]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.15
-anchor_right = 0.25
-anchor_bottom = 0.1
+[node name="ColorRect" type="ColorRect" parent="HBoxContainer" unique_id=1250965346]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ColorRect2" type="ColorRect" parent="HBoxContainer" unique_id=559217600]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=696355653]
+layout_mode = 0
+offset_left = 205.0
+offset_top = 19.0
+offset_right = 349.0
+offset_bottom = 103.0
+columns = 3
+
+[node name="ColorRect3" type="ColorRect" parent="GridContainer" unique_id=46173923]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ColorRect4" type="ColorRect" parent="GridContainer" unique_id=696842875]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ColorRect5" type="ColorRect" parent="GridContainer" unique_id=1012231878]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ColorRect6" type="ColorRect" parent="GridContainer" unique_id=1384528644]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ColorRect7" type="ColorRect" parent="GridContainer" unique_id=279222789]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GridContainer" unique_id=1085194258]
+layout_mode = 2
+
+[node name="ColorRect8" type="ColorRect" parent="GridContainer/VBoxContainer" unique_id=794428665]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ColorRect9" type="ColorRect" parent="GridContainer/VBoxContainer" unique_id=1188563277]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
