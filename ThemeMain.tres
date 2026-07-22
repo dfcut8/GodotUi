@@ -1,0 +1,15 @@
+[gd_resource type="Theme" format=3 uid="uid://bv1wqend54ycl"]
+
+[ext_resource type="FontFile" uid="uid://bq61agj52e" path="res://Assets/Fonts/PocketPixelRegular-6gdY.ttf" id="1_mus7i"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mowma"]
+bg_color = Color(0.2172404, 0.05708018, 0.08363599, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t56he"]
+bg_color = Color(0.19797176, 0.23757893, 0.27794805, 1)
+
+[resource]
+Button/colors/font_color = Color(0.50061893, 0.50061995, 0.5006191, 1)
+Button/fonts/font = ExtResource("1_mus7i")
+Button/styles/normal = SubResource("StyleBoxFlat_mowma")
+Panel/styles/panel = SubResource("StyleBoxFlat_t56he")

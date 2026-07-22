@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://dmm5ukntq15ra"]
+
+[ext_resource type="Theme" uid="uid://bv1wqend54ycl" path="res://ThemeMain.tres" id="1_ocvgu"]
+
+[node name="ThemePractice" type="Control" unique_id=602477445]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_ocvgu")
+
+[node name="Panel2" type="Panel" parent="." unique_id=500770446]
+layout_mode = 0
+offset_left = 348.0
+offset_top = 92.0
+offset_right = 388.0
+offset_bottom = 132.0
+theme = ExtResource("1_ocvgu")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1122276726]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button" type="Button" parent="VBoxContainer" unique_id=1453856354]
+layout_mode = 2
+text = "Button 1"
+
+[node name="Button2" type="Button" parent="VBoxContainer" unique_id=1401385611]
+layout_mode = 2
+text = "Button 2"
+
+[node name="Button3" type="Button" parent="VBoxContainer" unique_id=700753672]
+layout_mode = 2
+text = "Button 3"
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=394384944]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 337.0
+offset_top = 463.0
+offset_right = 639.0
+offset_bottom = 481.0
+
+[node name="Label" type="Label" parent="PanelContainer" unique_id=284828360]
+layout_mode = 2
+text = "some interesting text text test TEST"
+
+[node name="PanelContainer2" type="PanelContainer" parent="." unique_id=647673082]
+layout_mode = 0
+offset_left = 463.0
+offset_top = 293.0
+offset_right = 503.0
+offset_bottom = 333.0
+
+[node name="Panel" type="Panel" parent="PanelContainer2" unique_id=1122251033]
+layout_mode = 2
+theme = ExtResource("1_ocvgu")
+
+[node name="Label" type="Label" parent="PanelContainer2" unique_id=1685717515]
+layout_mode = 2
+text = "testing test"
