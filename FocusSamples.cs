@@ -14,7 +14,7 @@ public partial class FocusSamples : Control
 
     private void OnFocusEntered()
     {
-        GD.Print("Focus Entered!!!");
+        GD.Print("Focus Entered!!!!!!!");
         //focusedButton?.GrabFocus();
         label?.Text = focusedButton?.HasFocus().ToString();
     }
