@@ -9,13 +9,12 @@ public partial class FocusSamples : Control
         focusedButton = GetNode<Button>("%Button4");
         label = GetNode<Label>("%Label");
         focusedButton?.GrabFocus();
-        focusedButton.FocusEntered += OnFocusEntered;
+        focusedButton?.FocusEntered += OnFocusEntered;
     }
 
     private void OnFocusEntered()
     {
-        GD.Print("Focus Entered!!>>");
-        //focusedButton?.GrabFocus();
+        GD.Print("Focus Entered!");
         label?.Text = focusedButton?.HasFocus().ToString();
     }
 
